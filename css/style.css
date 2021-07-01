@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url("../img/runner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    margin-bottom: .8em;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+    padding-bottom: 10px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5) ), url("../img/trees.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.featureBox {
+    margin: 1px 60px;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexItem {
+    flex: 0 0 250px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.3em;
+    color: white;
+}
+
+.flexItem img {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.flexItem img:hover {
+    background-color: rgba(255,255,255,0.6);
+}
+.flexItem h3 {
+    background-color: brown;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: auto;
+
+}
+
+.daily {
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url("../img/track.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+thead {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody tr {
+    margin-bottom: 10px;
+}
+
+.challenge {
+    display: none;
+}
+
+.analyticsContainer {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url("../img/blackwhite.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.anFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputForm {
+    flex: 1 0 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputForm input {
+    color: gray;
+    padding: 6px 15px;
+    margin-bottom: 10px;
+}
+.analytics {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 500px;
+    text-align: center;
+}
+
+.analytics h3 {
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 50px;
+}
+.stats {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.stats2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statItem span {
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    line-height: 5px;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid brown;
+    
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.statItem span p:nth-child(2) {
+    line-height: 20px;
+}
+
+#dayWeek {
+    font-size: 1.3em;
+    background-color: brown;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+table, td, th {
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+span p:nth-child(1) {
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 53px;
+    
+}
+span p:nth-child(2) {
+    font-size: 0.5em;
+    
+}
+
+nav {
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1.3em;
+    padding-left: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+    color: brown;
+}
+
+.logo {
+    background-image: url("../img/iconwhite.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: left;
+    padding-left: 1em;
+}
+
+footer {
+    background-color: black;
+    padding: 15px 80px;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width:598px) {
+    /* two blocks on each row, hamburger menu gone,  */
+    table {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .flexItem {
+        flex: 0 0 60%;
+    }
+    .hero {
+        height: 460px;
+    }
+}
+
+@media (min-width: 768px) {
+    table {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexItem {
+        flex: 0 0 250px;
+    }
+    section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .features {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hero h1 {
+        font-size: 4em;
+    }
+    .hero h2 {
+        font-size: 2em;
+    }
+    
+    
+}
+@media (min-width: 992px) {
+    table {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero {
+        height: 425px;
+    }
+    
+
+}
+    
+@media (min-width: 1200px) {
+    table {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .anFlexContainer {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+
+
+/* form input {
+    text-align: center;
+}
+
+form label {
+    text-align: left;
+} */

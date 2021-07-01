@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fitness</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">    
+    <!-- normalize.css for cross-browser stuff -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="logo" aria-hidden="true">&nbsp;</span>
+                        Run Bud
+                    </a>
+                </li>
+                    
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero">
+                <h1>Run Bud</h1>
+                <h2>Take your game to the next level</h2>
+            </div>
+            <section class="features" id="about"> 
+                <div class="featureBox">
+                    <h2>Benefits</h2>
+                    <div class="flexContainer">
+                        <div class="flexItem">
+                            <img src="img/noun_run_2975834.png">
+                            <h3>Track Your Runs</h3>
+                            <p></p>
+                        </div>
+                        <div class="flexItem">
+                            <img src="img/noun_Navigation_4011606.png">
+                            <h3>Personalized Analytics</h3>
+                            <p></p>
+                        </div>
+                        <div class="flexItem">
+                            <img src="img/noun_Research_4012169.png">
+                            <h3>Workout Plan</h3>
+                            <p></p>
+                        </div>
+                        <div class="flexItem">
+                            <img src="img/noun_challenge_3215684.png">
+                            <h3>Complete Challenges</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section class="analyticsContainer" id="analytics">
+                <h2>Analytics</h2>
+                <div class="anFlexContainer">
+                    <div class="inputForm">
+                        <form>
+                            <h3>Tell me about yourself</h3>
+                            <label for="fname">First Name</label><br />
+                            <input type="text" id="fname" name="fname"><br />
+                            <label for="last">Last Name</label><br />
+                            <input type="text" id="lname" name="lname"><br />
+                            <label for="age">Age</label><br />
+                            <input type="number" id="age"><br />
+                            <label for="weight">Weight (lb)</label><br />
+                            <input type="number" id="weight"><br />
+                            <h3>Tell me about your run</h3>
+                            <label for="distance">Distance (mi)</label><br />
+                            <input type="number" id="distance"><br />
+                            <label for="time">Time</label><br />
+                            <input type="number" id="time"><br />
+                            <input type="submit" value="Submit" class="btn btn-primary"><br />
+                        </form>
+                    </div>
+                    <div class="analytics">
+                        <h3>Training Progress</h3>
+                        <div class="stats">
+                            <div class="statItem">
+                                <span>
+                                    <div class="statText">
+                                        <p>5:37</p><p>hours</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="statItem">
+                                <span>
+                                    <div class="statText">
+                                        <p>21.3</p><p>miles</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="statItem">
+                                <span>
+                                    <div class="statText">
+                                        <p>8:53</p><p>mph</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="stats2">
+                            <div class="statItem">
+                                <span>
+                                    <div class="statText">
+                                        <p>3874</p><p>calories burned</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="statItem">
+                                <span>
+                                    <div class="statText">
+                                        <p>16</p><p>consecutive days</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </section>
+            <section class="daily" id="schedule">
+                <div>
+                    <h2>Training Schedule</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="dayWeek" colspan="2">Today</th>
+                            </tr>
+                            <tr>
+                                <th>Time</th>
+                                <th>Objective</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>8am</th>
+                                <td>Fasted Cardio - 30min Jog</td>
+                            </tr>
+                            <tr>
+                                <th>12pm</th>
+                                <td>Lunch</td>
+                            </tr>
+                            <tr>
+                                <th>3pm</th>
+                                <td>Chest and Tricep Workout</td>
+                            </tr>
+                            <tr>
+                                <th>8pm</th>
+                                <td>Stretch and Yoga</td>
+                            </tr>
+                        </tbody>
+                            
+                    </table>
+                </div>
+            </section>
+            <section class="challenge">
+                <h2>Challenges</h2>
+            </section>
+        
+            
+            
+            
+        </main>
+        <footer>
+            <p>Developer: Calvin Chan</p>
+            <p>Contact: <a href="mailto:calchann@uw.edu">calchann@uw.edu</a></p>
+          </footer>
+    </body>
+</html>
